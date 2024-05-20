@@ -1,7 +1,7 @@
 class AboutUtils {
   static const String aboutMeHeadline =
-      'I\'m Muhammad Hamza, a Flutter developer, Technical blog writer and UI designer.';
+      'Je suis A.Aziz BAGAGNAN, un developer web & mobile Full-Stack, et formateur en programmation et en dévéloppement.';
 
   static const String aboutMeDetail =
-      'I\'m a Fresh Graduate with Computer Science as Majors from COMSATS University, Islamabad. I have been developing mobile apps for over 2 years now. I have worked in teams for various startups and helped them in launching their prototypes and got valuable learning experience. Been a former  Google Developer Student Clubs (DSC) lead and also CEO/Co-Founder Flutter Islamabad, Pakistan. Currently working as Associate Software Engineer at Sastaticket.pk';
+      'Je suis un développeur mobile expérimenté, spécialisé dans le développement web et d\'applications mobile (Android et Ios). J\'ai une solide expérience de travail avec des technologies telles que Java, Dart, PHP et j\'ai déjà travaillé sur de nombreux projets de développement d\'applications mobiles pour des clients de différents secteurs. En plus de mes compétences techniques, je possède également une forte capacité à travailler en équipe et à communiquer avec les clients pour comprendre leurs besoins et leur proposer des solutions adaptées. Je suis passionné par la programmation et le développement. Je suis toujours à la recherche de nouveaux défis pour mettre à profit mes compétences et mon expérience. En dehors de mon travail, j\'aime également rester au courant des dernières tendances et technologies dans le monde du développement, et assister régulièrement à des conférences et des ateliers pour continuer à apprendre et à m\'améliorer.';
 }

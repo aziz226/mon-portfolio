@@ -75,7 +75,7 @@ class _MobileDrawer extends StatelessWidget {
                       color: Colors.red,
                     ),
                     title: Text(
-                      'RESUME',
+                      'Mon CV',
                     ),
                   ),
                 ),

@@ -25,10 +25,10 @@ class AboutMobile extends StatelessWidget {
       child: Column(
         children: [
           const CustomSectionHeading(
-            text: '\nAbout Me',
+            text: '\nA propos de moi',
           ),
           const CustomSectionSubHeading(
-            text: 'Get to know me :)',
+            text: 'Faire ma connaissance :)',
           ),
           Space.y1!,
           Image.asset(
@@ -41,7 +41,7 @@ class AboutMobile extends StatelessWidget {
           Align(
             alignment: Alignment.centerLeft,
             child: Text(
-              "Who am I?",
+              "Qui je suis?",
               style: AppText.b2!.copyWith(
                 color: AppTheme.c!.primary,
               ),
@@ -72,7 +72,7 @@ class AboutMobile extends StatelessWidget {
           ),
           Space.y!,
           Text(
-            'Technologies I have worked with:',
+            'Technologies avec laquelle je travaille:',
             style: AppText.l1!.copyWith(
               color: AppTheme.c!.primary,
             ),
@@ -95,16 +95,16 @@ class AboutMobile extends StatelessWidget {
             height: height * 0.02,
           ),
           const AboutMeData(
-            data: "Name",
-            information: "Muhammad Hamza",
+            data: "Nom & Prénom",
+            information: "A.Aziz BAGAGNAN",
           ),
           const AboutMeData(
             data: "Email",
-            information: "hamza.6.shakeel@gmail.com",
+            information: "abdoulazizebagagnan",
           ),
           Space.y!,
           OutlinedButton(
-              child: const Text("Resume"),
+              child: const Text("Mon CV"),
               onPressed: () {
                 kIsWeb
                     ? html.window.open(StaticUtils.resume, "pdf")

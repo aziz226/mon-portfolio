@@ -39,6 +39,8 @@ dependencies:
 
   # cache
   shared_preferences: ^2.0.6
+  build_runner: ^2.4.9
+  build_web_compilers: ^4.0.10
 
 
 dev_dependencies:

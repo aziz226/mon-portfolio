@@ -26,12 +26,12 @@ class AboutTab extends StatelessWidget {
         children: [
           const Center(
             child: CustomSectionHeading(
-              text: '\nAbout Me',
+              text: '\nA propos de moi',
             ),
           ),
           const Center(
             child: CustomSectionSubHeading(
-              text: 'Get to know me :)',
+              text: 'Faire ma connaissance :)',
             ),
           ),
           Space.y1!,
@@ -43,7 +43,7 @@ class AboutTab extends StatelessWidget {
             height: height * 0.03,
           ),
           Text(
-            "Who am I?",
+            "Qui je suis?",
             style: AppText.b2!.copyWith(
               color: AppTheme.c!.primary,
             ),
@@ -73,7 +73,7 @@ class AboutTab extends StatelessWidget {
           ),
           Space.y!,
           Text(
-            'Technologies I have worked with:',
+            'Technologies avec laquelle je travaille:',
             style: AppText.l1!.copyWith(
               color: AppTheme.c!.primary,
             ),
@@ -97,8 +97,8 @@ class AboutTab extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: const [
                   AboutMeData(
-                    data: "Name",
-                    information: "Muhammad Hamza",
+                    data: "Nom & Prénom",
+                    information: "A.Aziz BAGAGNAN",
                   ),
                   AboutMeData(
                     data: "Age",
@@ -114,11 +114,11 @@ class AboutTab extends StatelessWidget {
                 children: const [
                   AboutMeData(
                     data: "Email",
-                    information: "hamza.6.shakeel@gmail.com",
+                    information: "abdoulazizebagagnan@gmail.com",
                   ),
                   AboutMeData(
                     data: "From",
-                    information: "Attock, PK",
+                    information: "Ouagadougou, BF",
                   ),
                 ],
               ),
@@ -133,7 +133,7 @@ class AboutTab extends StatelessWidget {
                 child: OutlinedButton(
                   onPressed: () => html.window.open(StaticUtils.resume, 'pdf'),
                   child: const Text(
-                    "Resume",
+                    "Mon CV",
                   ),
                 ),
               ),

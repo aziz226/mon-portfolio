@@ -1,5 +1,11 @@
 {
   "projects": {
-    "default": "mhmzdev-666"
-  }
+    "default": "mon-portfolio-aziz",
+    "firebase init": "mon-portfolio-azcodeur",
+    " ": "mon-portfolio-aziz",
+    "y": "abdoul-aziz-bagagnan",
+    "staging": "a-bagagnan"
+  },
+  "targets": {},
+  "etags": {}
 }

@@ -24,7 +24,7 @@ class _PortfolioDesktopState extends State<PortfolioDesktop> {
             text: "\nPortfolio",
           ),
           const CustomSectionSubHeading(
-            text: "Here are few samples of my previous work :)\n\n",
+            text: "Voici quelques échantillons de mes travaux précédents. :)\n\n",
           ),
           Wrap(
             alignment: WrapAlignment.center,
@@ -51,7 +51,7 @@ class _PortfolioDesktopState extends State<PortfolioDesktop> {
             child: OutlinedButton(
               onPressed: () => openURL(StaticUtils.gitHub),
               child: Text(
-                'See More',
+                'Voir plus',
                 style: AppText.l1b,
               ),
             ),

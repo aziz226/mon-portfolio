@@ -25,10 +25,10 @@ class AboutDesktop extends StatelessWidget {
       child: Column(
         children: [
           const CustomSectionHeading(
-            text: '\nAbout Me',
+            text: '\nA propos de moi',
           ),
           const CustomSectionSubHeading(
-            text: 'Get to know me :)',
+            text: 'Faire ma connaissance :)',
           ),
           Space.y1!,
           Row(
@@ -47,7 +47,7 @@ class AboutDesktop extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        'Who am I?',
+                        'Qui je suis?',
                         style: AppText.b1!.copyWith(
                           color: AppTheme.c!.primary,
                         ),
@@ -77,7 +77,7 @@ class AboutDesktop extends StatelessWidget {
                       ),
                       Space.y!,
                       Text(
-                        'Technologies I have worked with:',
+                        'Technologies avec laquelle je travaille:',
                         style: AppText.l1!.copyWith(
                           color: AppTheme.c!.primary,
                         ),
@@ -101,8 +101,8 @@ class AboutDesktop extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: const [
                               AboutMeData(
-                                data: "Name",
-                                information: "Muhammad Hamza",
+                                data: "Nom & Prénom",
+                                information: "A.Aziz BAGAGNAN",
                               ),
                               AboutMeData(
                                 data: "Age",
@@ -116,11 +116,11 @@ class AboutDesktop extends StatelessWidget {
                             children: const [
                               AboutMeData(
                                 data: "Email",
-                                information: "hamza.6.shakeel@gmail.com",
+                                information: "abdoulazizebagagnan@gmail.com",
                               ),
                               AboutMeData(
                                 data: "From",
-                                information: "Attock, PK",
+                                information: "Ouagadougou, BF",
                               ),
                             ],
                           ),
@@ -136,7 +136,7 @@ class AboutDesktop extends StatelessWidget {
                               onPressed: () =>
                                   html.window.open(StaticUtils.resume, 'pdf'),
                               child: const Text(
-                                "Resume",
+                                "Mon CV",
                               ),
                             ),
                           ),

@@ -27,7 +27,7 @@
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png" />
 
-  <title>Hamza</title>
+  <title>Aziz</title>
   <link rel="manifest" href="manifest.json">
 
   <style>
@@ -107,6 +107,29 @@
     }
   </script>
   <script src="main.dart.js" type="application/javascript"></script>
-</body>
 
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyAZQxyEB4QsrSzgCMPzFA0HeB7FTx-yjNU",
+      authDomain: "a-bagagnan.firebaseapp.com",
+      projectId: "a-bagagnan",
+      storageBucket: "a-bagagnan.appspot.com",
+      messagingSenderId: "694582359428",
+      appId: "1:694582359428:web:767650b02dbac27b8699d1",
+      measurementId: "G-63G7YVFLFR"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+</body>
 </html>
